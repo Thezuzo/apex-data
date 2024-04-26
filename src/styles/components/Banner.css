@@ -1,0 +1,21 @@
+.Banner {
+    padding: 10rem 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.Banner h1,
+.Banner h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.Banner h1 {
+    font-size: 54px;
+}
+
+.Banner h2 {
+    font-size: 32px;
+}

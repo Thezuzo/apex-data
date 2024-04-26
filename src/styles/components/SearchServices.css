@@ -1,0 +1,53 @@
+.Search-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: #232a31;
+    padding: 2.2rem;
+}
+
+.Search-services .subtitle,
+.Search-services p {
+    margin: .3rem;
+    color: #FFF;
+}
+
+.Search-services .subtitle {
+    font-weight: bold;
+}
+
+.domains {
+    text-align: center;
+}
+
+.domains p {
+    font-size: 12px;
+}
+
+.itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #313942, #5b5d5e);
+}
+
+.itens li {
+    margin: 1rem;
+}
+
+.itens li a {
+    color: #fafafa;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.itens li a:hover {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+}

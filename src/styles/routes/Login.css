@@ -1,0 +1,13 @@
+.central {
+    margin:10% auto ;
+    width: 20rem;
+}
+
+.card {
+    padding: 2rem;
+}
+
+.control {
+    display: flex;
+    justify-content: space-around;
+}

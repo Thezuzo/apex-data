@@ -1,0 +1,37 @@
+.client-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.2rem;
+    padding: 10px;
+}
+
+.client-services .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 280px;
+    max-height: 480px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.client-services .card .subtitle,
+.client-services .card .values .title,
+.client-services .card .values .subtitle {
+    color: #00acc8;
+    margin: 0;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+@media (max-width: 720px) {
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

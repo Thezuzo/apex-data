@@ -1,0 +1,9 @@
+.thisText {
+    text-align: center;
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.about {
+    border-top: 2px solid #000;
+}

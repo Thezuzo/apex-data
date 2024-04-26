@@ -1,0 +1,103 @@
+@media (max-width: 720px)  {
+    .subNavbar ul {
+        display: none;
+    }
+
+    .navbar-container  {
+       height: 70px;
+       padding-bottom: 1rem;
+    }
+}
+
+.navbar-container {
+    width: 100%;
+    height: 60px;
+    background-color: #232a31;
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+.logo {
+    width: 45px;
+    margin-top: 15px;
+}
+
+.navbar-itens {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-itens li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+
+.navbar-itens a:hover {
+    color: #ccc;
+}
+
+.default-btn {
+    padding: 9px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.navbar-itens .default-btn:hover {
+    background-color: #22bb5f;
+    color: #fff;
+}
+
+.subNavbar {
+    background-color: #232a31;
+    display: flex;
+}
+
+.subNavbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.subNavbar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.subNavbar a {
+    padding: 10px 15px;
+    display: block;
+}
+
+.subNavbar ul li ul.dropdown li {
+    display: block;
+}
+
+.subNavbar ul li ul.dropdown {
+    width: 100%;
+    background: #232a31;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.subNavbar ul li a:hover {
+    background: #232a31;
+}
+
+.subNavbar ul li:hover ul.dropdown {
+    display: block;
+}
