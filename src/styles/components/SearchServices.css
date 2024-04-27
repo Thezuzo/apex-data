@@ -51,3 +51,18 @@
     font-weight: bold;
     font-size: 18px;
 }
+
+/*responsive*/
+@media (max-width: 720px) {
+    .itens li a {
+        font-size: 10px;
+    }
+
+    .itens li a:hover {
+        font-size: 12px;
+    }
+
+    .itens li {
+        margin: .3rem;
+    }
+}

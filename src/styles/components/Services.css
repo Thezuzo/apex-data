@@ -34,4 +34,8 @@
     .container-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .client-services {
+        padding: 0 1rem;
+    }
 }

@@ -2,6 +2,9 @@ import React from 'react'
 import '../styles/components/Navbar.css'
 import dbimage from '../assets/db.png'
 
+//react router
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
 
     const hospedagens = [
@@ -21,43 +24,43 @@ const Navbar = () => {
                     </a>
                     <ul className="navbar-itens">
                         <li>
-                            <a href="#">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <a href="#">Preços</a>
+                            <Link to="/">Preços</Link>
                         </li>
                         <li>
-                            <a href="#">Contato</a>
+                            <Link to="/contact">Contato</Link>
                         </li>
                         <li>
-                            <a href="#" className="default-btn">Entre</a>
+                            <Link to="/login" className="default-btn">Entre</Link>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div className="subNavbar">
                 <ul>
-                    <li><a href="#">Hospedagem</a>
+                    <li><Link to="/">Hospedagem</Link>
                         <ul className='dropdown'>
                             {hospedagens.map(hospedagem => (
                                 <li key={hospedagem.name}>
-                                    <a href="#">{hospedagem.name}</a>
+                                    <Link to="/">{hospedagem.name}</Link>
                                 </li>
                             ))}
                         </ul>
                     </li>
                 </ul>
                 <ul>
-                    <li><a href="#">E-mail</a></li>
+                    <li><Link to="/">E-mail</Link></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Registre seu dominio</a></li>
+                    <li><Link to="/">Registre seu dominio</Link></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Nuvem e vps</a></li>
+                    <li><Link to="/">Nuvem e vps</Link></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Sobre nós</a></li>
+                    <li><Link to="/">Sobre nós</Link></li>
                 </ul>
             </div>
         </div>
