@@ -14,22 +14,22 @@ import Contact from './routes/Contact.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/apex-data",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/apex-data",
         element: <Main />
       },
       {
-        path: "/contact",
+        path: "/apex-data/contact",
         element: <Contact />
       }
     ]
   },
   {
-    path: "/login",
+    path: "/apex-data/login",
     element: <Login />
   }
 ])

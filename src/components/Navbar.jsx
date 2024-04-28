@@ -24,13 +24,13 @@ const Navbar = () => {
                     </a>
                     <ul className="navbar-itens">
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/apex-data/">Home</Link>
                         </li>
                         <li>
                             <Link to="/">Preços</Link>
                         </li>
                         <li>
-                            <Link to="/contact">Contato</Link>
+                            <Link to="/apex-data/contact">Contato</Link>
                         </li>
                         <li>
                             <Link to="/login" className="default-btn">Entre</Link>
